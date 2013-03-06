@@ -1,0 +1,10 @@
+Revision history for Data-SimplePath
+
+0.001	2009/08/16
+	* Initial release
+
+0.002	2013/03/06
+	* First CPAN release
+	* Modified some tests in t/14-get.t to not use qr//
+	* Synopsis modified to avoid test warnings
+	* Moved Test::* to BUILD_REQUIRES in Makefile.PL
