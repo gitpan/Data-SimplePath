@@ -1,4 +1,4 @@
-Data-SimplePath 0.002
+Data-SimplePath 0.003
 
 Access complex data structures made from hashes and arrays with
 path-like keys.

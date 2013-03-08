@@ -1,4 +1,4 @@
-#!/usr/bin/perl -tT
+#!/usr/bin/perl -T
 
 use strict;
 use warnings;
@@ -10,8 +10,8 @@ BEGIN {
 }
 
 BEGIN {
-	use_ok ('Data::SimplePath', '0.002');
+	use_ok ('Data::SimplePath', '0.003');
 }
 
-is   ($Data::SimplePath::VERSION, '0.002', '$Data::SimplePath::VERSION ok');
+is   ($Data::SimplePath::VERSION, '0.003', '$Data::SimplePath::VERSION ok');
 diag ("Testing Data::SimplePath $Data::SimplePath::VERSION, Perl $], $^X");

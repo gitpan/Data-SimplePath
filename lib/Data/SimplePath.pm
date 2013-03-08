@@ -10,11 +10,11 @@ Data::SimplePath - Path-like access to complex data structures
 
 =head1 VERSION
 
-Version 0.002
+Version 0.003
 
 =cut
 
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 {
 	# global options, will be used as defaults for newly created objects, can be changed on

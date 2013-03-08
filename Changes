@@ -8,3 +8,7 @@ Revision history for Data-SimplePath
 	* Modified some tests in t/14-get.t to not use qr//
 	* Synopsis modified to avoid test warnings
 	* Moved Test::* to BUILD_REQUIRES in Makefile.PL
+
+0.003	2013/03/08
+	* Changed -tT command line option to -T in some tests to avoid test
+	  failures with (very) old Perl versions
