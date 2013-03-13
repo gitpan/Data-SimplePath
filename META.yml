@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Data-SimplePath
-version:            0.003
+version:            0.004
 abstract:           Path-like access to complex data structures
 author:
     - Stefan Goebel

@@ -10,8 +10,8 @@ BEGIN {
 }
 
 BEGIN {
-	use_ok ('Data::SimplePath', '0.003');
+	use_ok ('Data::SimplePath', '0.004');
 }
 
-is   ($Data::SimplePath::VERSION, '0.003', '$Data::SimplePath::VERSION ok');
+is   ($Data::SimplePath::VERSION, '0.004', '$Data::SimplePath::VERSION ok');
 diag ("Testing Data::SimplePath $Data::SimplePath::VERSION, Perl $], $^X");
