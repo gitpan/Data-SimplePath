@@ -10,11 +10,11 @@ Data::SimplePath - Path-like access to complex data structures
 
 =head1 VERSION
 
-Version 0.004
+Version 0.005
 
 =cut
 
-our $VERSION = '0.004';
+our $VERSION = '0.005';
 
 {
 	# global options, will be used as defaults for newly created objects, can be changed on
@@ -158,6 +158,25 @@ separator string. Empty (or undef) elements are usually ignored when a path is p
 In the following documentation these two terms will be used as described above. Note that the root
 of the data structure is specified as an empty key (ie. he empty string C<''>) or an empty array as
 path.
+
+=head2 Similar Modules
+
+There are a few modules with similar functionality are available: L<Data::Path> and L<Data::DPath>
+provide access to data structures using a more flexible and powerful (some may call it complicated)
+XPath like matching.
+
+L<Data::SPath> provides access to data structures using paths like C<Data::SimplePath> does
+(including accessing arrayrefs with numeric keys, L<Data::Path> and L<Data::DPath> require special
+syntax for arrayrefs). Also, this module does support calling object methods with method names
+specified in the path, C<Data::SimplePath> does not offer special treatment for objects.
+
+However, unlike the aforementioned modules, C<Data::SimplePath> not only provides read access to an
+existing data structure, it also provides methods to create, change or delete values in the data
+structure, using paths to specify the location, and automatically create nested structures if
+required.
+
+So if you only need read access, see the documentation of the modules mentioned above, maybe one is
+better suited for your needs than C<Data::SimplePath>.
 
 =head1 CONFIGURATION
 

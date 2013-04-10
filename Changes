@@ -15,3 +15,6 @@ Revision history for Data-SimplePath
 
 0.004	2013/03/13
 	* Missed one -tT command line option in 0.003
+
+0.005	2013/04/10
+	* Updated documentation
